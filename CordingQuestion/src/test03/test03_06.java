@@ -9,17 +9,14 @@ public class test03_06 {
 	//	하지만, 오른쪽을 기준으로 정렬한 별(예제 참고)을 출력하시오.
 	public static void main(String[] args) {
 		
-//		Scanner sc = new Scanner(System.in);
-//		
-//		int N;
-//		N = sc.nextInt();
-//		
-//		for (int i=N; i>1; i--) {
-//			System.out.print(" ");
-//		} for (int j=N; j>0; j--) {
-//			System.out.println("*");
-//		}
-
-	}
-
+		Scanner sc = new Scanner(System.in);
+		int N = sc.nextInt();		
+		//	char i = ' ';
+		//	char j = '*';
+		
+		for(int i=N; i>0; i--) {
+			System.out.println(" ");
+		}
+		
+	}	
 }
